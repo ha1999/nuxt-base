@@ -1,5 +1,8 @@
+# App config
 nuxt.config.ts
 app.config.ts
+nuxt.config.js
+
 # Nuxt dev/build outputs
 .output
 .data
