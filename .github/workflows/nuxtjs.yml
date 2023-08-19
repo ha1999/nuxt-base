@@ -71,9 +71,9 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Lint code
-        run: ${{ steps.detect-package-manager.outputs.manager }} run lint
+        run: ${{ steps.detect-package-manager.outputs.manager }} lint
       - name: Test
-        run: ${{ steps.detect-package-manager.outputs.manager }} run coverage
+        run: ${{ steps.detect-package-manager.outputs.manager }} coverage
       - name: Static HTML export with Nuxt
         run: ${{ steps.detect-package-manager.outputs.manager }} run generate
       - name: Upload artifact
