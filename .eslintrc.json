@@ -10,8 +10,7 @@
   },
   "extends": [
     "@nuxtjs/eslint-config-typescript",
-    "plugin:prettier/recommended",
-    "eslint:recommended"
+    "plugin:prettier/recommended"
   ],
   "plugins": [],
   "rules": {
